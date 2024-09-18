@@ -1,7 +1,7 @@
 ## I am attempting to write functions that will serve to make a cached matrix 
 ## as well as solve for the inverse
 
-## This first finction will make a cached matrix
+## This first function will make a cached matrix
 
 makeCacheMatrix <- function(x = matrix(sample(1:50,9),3,3)) {
   inv <- NULL
